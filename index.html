@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/x-icon" href="img/android-chrome-192x192.png">
-
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!--==================== UNICONS ====================-->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
@@ -139,7 +139,7 @@
                     About Me
                 </h2>
                 <span class="section__subtitle">My Introduction</span>
-                <div class="about__container container grid">
+                <div class="about__container container grid" data-aos="fade-up" data-aos-duration="3000">
                     <img src="img/about.jpg" alt="" class="about__img">
 
                     <div class="about__data">
@@ -958,6 +958,11 @@
         <a href="#" class="scrollup" id="scroll-up">
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
 
         <!--==================== SWIPER JS ====================-->
         <script src="js/swiper-bundle.min.js"></script>
